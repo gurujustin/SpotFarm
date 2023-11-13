@@ -47,25 +47,25 @@
     font-style: normal;
 }
 @font-face {
-    font-family: `'Plus Jakarta Sans' sans-serif` , sans-serif;
+    font-family: `'Plus Jakarta Sans', sans-serif` , sans-serif;
     src: url("/fonts/GroupeMedium.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
-    font-family: `'Plus Jakarta Sans' sans-serif` ;
+    font-family: `'Plus Jakarta Sans', sans-serif` ;
     src: url("/fonts/Azonix.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
-    font-family: `'Plus Jakarta Sans' sans-serif` ;
+    font-family: `'Plus Jakarta Sans', sans-serif` ;
     src: url("/fonts/ethnocentricRg.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
-    font-family: `'Plus Jakarta Sans' sans-serif` ;
+    font-family: `'Plus Jakarta Sans', sans-serif` ;
     src: url("/fonts/BebasNeue.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;

@@ -347,7 +347,7 @@ export default function LpStakeTabMenu({
                     id="stakeInput"
                     className="w-full border my-2 border-gray-300 outline-none p-2 pr-10 text-black"
                     value={_amountMilQ} // Display the current value
-                    style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
+                    style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
                     onChange={(e) => {
                       const value = e.target.valueAsNumber; // Get the input value as a number
                       if (!isNaN(value) && value >= 1) {
@@ -359,7 +359,7 @@ export default function LpStakeTabMenu({
                     <>
                       {" "}
                       <button
-                        style={{ fontFamily: `'Plus Jakarta Sans' sans-serif` }}
+                        style={{ fontFamily: `'Plus Jakarta Sans', sans-serif` }}
                         className="font-sans ml-2 cursor-pointer text-md rounded-lg text-center focus:ring-2 focus:ring-blue-500 bg-black border-white border-2 text-white bg-black py-2 px-5 sm:px-10 md:px-10 lg:px-10"
                         type="button"
                         onClick={() => HandleStaQe()}
@@ -371,7 +371,7 @@ export default function LpStakeTabMenu({
                     <>
                       {" "}
                       <button
-                        style={{ fontFamily: `'Plus Jakarta Sans' sans-serif` }}
+                        style={{ fontFamily: `'Plus Jakarta Sans', sans-serif` }}
                         className="font-sans  cursor-pointer text-md rounded-lg text-center border-white border-2 text-white bg-black py-2 px-4 sm:px-5 md:px-5"
                         type="button"
                         onClick={() => LPApprove()}
@@ -384,7 +384,7 @@ export default function LpStakeTabMenu({
                   <div className="flex-row justify-center my-3 items-center">
                     <button
                       onClick={() => Claim()}
-                      style={{ fontFamily: `'Plus Jakarta Sans' sans-serif` }}
+                      style={{ fontFamily: `'Plus Jakarta Sans', sans-serif` }}
                       className="font-sans  cursor-pointer text-md mx-4 rounded-lg text-center focus:ring-2 focus:ring-blue-500 border-white border-2 text-white bg-black py-2 px-4 sm:px-5 md:px-5"
                       type="button"
                     >
@@ -395,7 +395,7 @@ export default function LpStakeTabMenu({
                         userdetails ? userdetails[0] < _amountMilQ : true
                       }
                       onClick={() => HandleUnStaQe()}
-                      style={{ fontFamily: `'Plus Jakarta Sans' sans-serif` }}
+                      style={{ fontFamily: `'Plus Jakarta Sans', sans-serif` }}
                       className="font-sans cursor-pointer text-md rounded-lg text-center focus:ring-2 focus:ring-blue-500 border-white border-2 text-white bg-black py-2 px-4 sm:px-5 md:px-5"
                       type="button"
                     >
@@ -404,7 +404,7 @@ export default function LpStakeTabMenu({
                   </div>
                   <button
                     onClick={() => PerpSwitch()}
-                    style={{ fontFamily: `'Plus Jakarta Sans' sans-serif` }}
+                    style={{ fontFamily: `'Plus Jakarta Sans', sans-serif` }}
                     className="font-sans ml-2 cursor-pointer text-md rounded-lg text-center focus:ring-2 focus:ring-blue-500 bg-yellow-500 border-white border-2 text-white bg-black py-2 px-5 sm:px-10 md:px-10 lg:px-10"
                     type="button"
                   >
@@ -412,7 +412,7 @@ export default function LpStakeTabMenu({
                   </button>
                 </div>
                 <div
-                  style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
+                  style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
                   className=" mt-5 opacity-90 transition-all duration-300 py-3"
                 >
                   <div
@@ -490,7 +490,7 @@ export default function LpStakeTabMenu({
                     id="stakeInput"
                     className="w-fit border my-2 border-gray-300 outline-none m-2 text-black"
                     value={""}
-                    style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
+                    style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
                     onChange={(e) => {
                       const value = e.target.valueAsNumber; // Get the input value as a number
                       if (!isNaN(value) && value >= 1) {
@@ -503,7 +503,7 @@ export default function LpStakeTabMenu({
                     {Allowance >= _amountMilQ ? (
                       <button
                         onClick={() => HandleStaQe()}
-                        style={{ fontFamily: `'Plus Jakarta Sans' sans-serif` }}
+                        style={{ fontFamily: `'Plus Jakarta Sans', sans-serif` }}
                         className="font-sans cursor-pointer text-md mx-4 rounded-lg text-center focus:ring-2 focus:ring-blue-500 border-white border-2 text-white bg-black py-2 px-4 sm:px-5 md:px-5"
                         type="button"
                       >
@@ -512,7 +512,7 @@ export default function LpStakeTabMenu({
                     ) : (
                       <button
                         onClick={() => LPApprove()}
-                        style={{ fontFamily: `'Plus Jakarta Sans' sans-serif` }}
+                        style={{ fontFamily: `'Plus Jakarta Sans', sans-serif` }}
                         className="font-sans ursor-pointer text-md rounded-lg text-center focus:ring-2 focus:ring-blue-500 border-white border-2 text-white bg-black py-2 px-4 sm:px-5 md:px-5"
                         type="button"
                       >
@@ -522,7 +522,7 @@ export default function LpStakeTabMenu({
                   </div>
                   <div className="flex-row justify-center my-3 items-center">
                     <button
-                      style={{ fontFamily: `'Plus Jakarta Sans' sans-serif` }}
+                      style={{ fontFamily: `'Plus Jakarta Sans', sans-serif` }}
                       className="font-sans cursor-pointer text-md rounded-lg text-center focus:ring-2 focus:ring-blue-500 border-white border-2 text-white bg-black py-2 px-4 sm:px-5 md:px-5"
                       type="button"
                     >
@@ -531,7 +531,7 @@ export default function LpStakeTabMenu({
                   </div>
                   <button
                     onClick={() => RequestUnlock()}
-                    style={{ fontFamily: `'Plus Jakarta Sans' sans-serif` }}
+                    style={{ fontFamily: `'Plus Jakarta Sans', sans-serif` }}
                     className="font-sans cursor-pointer text-md rounded-lg text-center focus:ring-2 focus:ring-blue-500 bg-yellow-500 border-white border-2 text-white bg-black py-2 px-4 sm:px-5 md:px-5"
                     type="button"
                   >
@@ -539,7 +539,7 @@ export default function LpStakeTabMenu({
                   </button>
                 </div>
                 <div
-                  style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
+                  style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
                   className=" mt-5 opacity-90 transition-all duration-300 py-3"
                 >
                   <div

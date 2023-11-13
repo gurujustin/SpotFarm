@@ -229,7 +229,7 @@ export default function NewClaim() {
       >
         <p
           className="text-[15px] sm:text-[20px] md:text-[23px] lg:md:text-[25px] font-semibold text-white"
-          style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
+          style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
         >
           CLAIM LP REWARDS
         </p>
@@ -276,7 +276,7 @@ export default function NewClaim() {
 
         <div className="flex justify-center items-center mt-10 ">
           <button
-            style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
+            style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
             className="font-sans cursor-pointer text-[20px] rounded-lg text-center bg-gradient-to-r from-black to-black  text-white py-2 px-5 sm:px-10 md:px-10 lg:px-10"
             type="button"
             onClick={() => claimWithPromise()}
@@ -369,14 +369,14 @@ export default function NewClaim() {
         <p
           className="font-sans text-[18px] sm:text-[15px] md:text-[15px] lg:text-[16px] 
         col-span-2 sm:col-span-1 md:col-span-1 lg:col-span-1 "
-          style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
+          style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
         >
           SPOTGROUP.IO
         </p>
         <p
           className="font-sans text-[12px] sm:text-[15px] md:text-[15px] lg:text-[16px] 
         col-span-2 sm:col-span-1 md:col-span-1 lg:col-span-1"
-          style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
+          style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
         >
           SPOTGROUP2023
         </p>
@@ -402,7 +402,7 @@ export default function NewClaim() {
       `}</style>
       {/* 
         <h5
-          style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
+          style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
           className="text-center mb-2 text-4xl font-bold tracking-wide self-center text-gray-300 dark:text-gray-300"
         >
           Claim LP Rewards
@@ -432,7 +432,7 @@ export default function NewClaim() {
           <>
             <div className="flex flex-row content-center mx-auto items-center max-w-screen">
               <button
-                style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
+                style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
                 type="button"
                 onClick={() => Claimtoken()}
                 className="w-fit mx-0 px-20 md:px-32 self-center content-center tn:mx-0 elevation-10 hover:elevation-50 md:mx-24 h-24

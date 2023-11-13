@@ -121,7 +121,7 @@ const StakingComponent = () => {
         >
           <h1
             className="text-white text-xl md:text-2xl justify-center text-center items-center text-[30px]"
-            style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
+            style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
           >
             This Pool is depreciated you can only unstake and claim here. Go to
             our new StaQing page if you want to Staqe.
@@ -132,7 +132,7 @@ const StakingComponent = () => {
               <h2
                 style={{
                   boxShadow: "inset 0px 0px 15px -5px rgba(255,255,255,0.6)",
-                  fontFamily: `'Plus Jakarta Sans' sans-serif` ,
+                  fontFamily: `'Plus Jakarta Sans', sans-serif` ,
                 }}
                 className="text-white text-center text-md mb-2 md:w-40 h-24 border border-white  px-2 py-4"
               >
@@ -143,7 +143,7 @@ const StakingComponent = () => {
               <h2
                 style={{
                   boxShadow: "inset 0px 0px 15px -5px rgba(255,255,255,0.6)",
-                  fontFamily: `'Plus Jakarta Sans' sans-serif` ,
+                  fontFamily: `'Plus Jakarta Sans', sans-serif` ,
                 }}
                 className="text-white text-center text-md mb-2 md:w-40 h-24 border border-white  px-2 py-4"
               >
@@ -157,7 +157,7 @@ const StakingComponent = () => {
               }
             >
               <button
-                style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
+                style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
                 className="font-sans cursor-pointer text-sm md:w-40 rounded-lg text-center focus:ring-2 focus:ring-blue-500 border-white border-2 text-white bg-black py-2 px-4 sm:px-5 md:px-5"
                 type="button"
                 onClick={() => claimRewards()}
@@ -166,7 +166,7 @@ const StakingComponent = () => {
               </button>
               <p className={"mx-3"}></p>
               <button
-                style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
+                style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
                 className="font-sans cursor-pointer text-sm md:w-40 rounded-lg text-center focus:ring-2 focus:ring-blue-500 border-white border-2 text-white bg-black py-2 px-4 sm:px-5 md:px-5"
                 type="button"
                 onClick={() => unStake()}

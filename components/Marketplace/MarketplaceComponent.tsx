@@ -26,7 +26,7 @@ export default function MarketplaceComponent() {
       {/* <div className="mt-12 w-[170px] sm:w-[300px] md:w-[350px] lg:w-[500px] "> */}
       <p
         className="text-3xl lg:text-3xl mt-40 text-center font-semibold px-5 text-white"
-        style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
+        style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
       >
         LP Marketplace
       </p>
@@ -35,14 +35,14 @@ export default function MarketplaceComponent() {
         <p
           className="font-sans text-white text-[18px] sm:text-[15px] md:text-[15px] lg:text-[16px]
         col-span-2 sm:col-span-1 md:col-span-1 lg:col-span-1 "
-          style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
+          style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
         >
           SPOTGROUP.IO
         </p>
         <p
           className="font-sans text-white text-[12px] sm:text-[15px] md:text-[15px] lg:text-[16px]
         col-span-2 sm:col-span-1 md:col-span-1 lg:col-span-1"
-          style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
+          style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
         >
           SPOTGROUP2023
         </p>

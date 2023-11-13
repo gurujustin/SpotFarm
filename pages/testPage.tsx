@@ -342,42 +342,42 @@ export default function NewStakeComponent(_token: any) {
       title: "Account Summary",
       content: (
         <div
-          style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
+          style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
           className="text-xl animate-LinearAnimaion duration-700 transition-all w-full grid grid-cols-2 col-span-4 mb-4 opacity-90
           text-white px-6 py-6 mx-auto"
         >
           <div
-            style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
+            style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
             className="text-white text-left border-b border-white px-2"
           >
             SPOT Balance:
           </div>
           <div
-            style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
+            style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
             className="text-white text-right border-b border-white px-2"
           >
             {spotBalance ? spotBalance.toFixed(2) : "0"} SPOT
           </div>
           <div
-            style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
+            style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
             className="text-white text-left border-b border-white px-2"
           >
             LP Balance:
           </div>
           <div
-            style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
+            style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
             className="text-white text-right border-b border-white px-2"
           >
             {MilqBalance ? MilqBalance.toFixed(2) : "0"} LP
           </div>
           <div
-            style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
+            style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
             className="text-white text-left border-b border-white px-2"
           >
             SPOT StaQed:
           </div>
           <div
-            style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
+            style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
             className="text-white text-right border-b border-white px-2"
           >
             {userdetails
@@ -386,13 +386,13 @@ export default function NewStakeComponent(_token: any) {
             SPOT
           </div>
           <div
-            style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
+            style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
             className="text-white text-left border-b border-white px-2"
           >
             LP StaQed:
           </div>
           <div
-            style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
+            style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
             className="text-white text-right border-b border-white px-2"
           >
             {milqerUserDetails
@@ -407,31 +407,31 @@ export default function NewStakeComponent(_token: any) {
       title: "Claimable Balance",
       content: (
         <div
-          style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
+          style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
           className={
             "text-xl animate-LinearAnimaion js-show-on-scroll-LinearAnimaion w-full grid grid-cols-2 col-span-4 mb-4 text-white px-16 py-4 mx-auto"
           }
         >
           <h2
-            style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
+            style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
             className="text-left border-b border-white px-2"
           >
             ETH Claimable (LP & SPOT):
           </h2>{" "}
           <h2
-            style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
+            style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
             className="text-right border-b border-white px-2"
           >
             {spotBalance ? spotBalance.toFixed(2) : "0"} ETH
           </h2>
           <h2
-            style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
+            style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
             className="text-left border-b border-white px-2"
           >
             LP Claimable:
           </h2>{" "}
           <h2
-            style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
+            style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
             className="text-right border-b border-white px-2"
           >
             {pendingLP ? pendingLP.toFixed(8) : "0"} ETH
@@ -448,25 +448,25 @@ export default function NewStakeComponent(_token: any) {
         }
       >
         <h2
-          style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
+          style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
           className="text-white text-left border-b border-white px-2"
         >
           ETH Earned (Spot + LP) Per 24hr:
         </h2>{" "}
         <h2
-          style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
+          style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
           className="text-white text-right border-b border-white px-2"
         >
           SPOT
         </h2>
         <h2
-          style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
+          style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
           className="text-white text-left border-b border-white px-2"
         >
           ETH Earned SPOT Per 24hr:
         </h2>{" "}
         <h2
-          style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
+          style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
           className="text-white text-right border-b border-white px-2"
         >
           {Spotapr && userdetails
@@ -479,13 +479,13 @@ export default function NewStakeComponent(_token: any) {
           ETH
         </h2>
         <h2
-          style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
+          style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
           className="text-white text-left border-b border-white px-2"
         >
           ETH Earned LP Per 24hr:
         </h2>{" "}
         <h2
-          style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
+          style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
           className="text-white text-right border-b border-white px-2"
         >
           {" "}
@@ -515,7 +515,7 @@ export default function NewStakeComponent(_token: any) {
       >
         <h1
           className="text-3xl mb-2 md:text-4xl lg:text-4xl font-semibold text-white"
-          style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
+          style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
         >
           StaQing
         </h1>
@@ -527,7 +527,7 @@ export default function NewStakeComponent(_token: any) {
                 onClick={() => handleSectionClick(index)}
               >
                 <div
-                  style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
+                  style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
                   className="mx-auto text-center text-2xl"
                 >
                   {section.title}
@@ -581,7 +581,7 @@ export default function NewStakeComponent(_token: any) {
               }`}
             ></div>
             <button
-              style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
+              style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
               className={`z-10 absolute text-md top-0 right-0 w-1/2 h-full rounded-full text-black transition-transform ${
                 isSpotStakeOpen ? "" : "text-gray-400"
               }`}
@@ -592,7 +592,7 @@ export default function NewStakeComponent(_token: any) {
               SPOT Stake
             </button>
             <button
-              style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
+              style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
               className={`z-10 absolute text-md top-0 w-1/2 h-full rounded-full text-black transition-transform ${
                 isSpotStakeOpen ? "text-gray-400" : ""
               }`}
@@ -619,7 +619,7 @@ export default function NewStakeComponent(_token: any) {
         <div className={"text-center mx-auto flex flex-col px-10"}>
           <button onClick={toggleModal}>
             <h2
-              style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
+              style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
               className="mb-2 z-10 absolute mx-auto text-center cursor-pointer hover:text-gray-100 duration-700 mx-auto
              text-3xl text-gray-400 opacity-90"
             >
@@ -674,14 +674,14 @@ export default function NewStakeComponent(_token: any) {
           <p
             className="text-[18px] sm:text-[15px] md:text-[15px] lg:text-[16px]
       col-span-2 sm:col-span-1 md:col-span-1 lg:col-span-1 "
-            style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
+            style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
           >
             SPOTGROUP.IO
           </p>
           <p
             className="text-[12px] sm:text-[15px] md:text-[15px] lg:text-[16px]
       col-span-2 sm:col-span-1 md:col-span-1 lg:col-span-1"
-            style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
+            style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
           >
             SPOTGROUP2023
           </p>
