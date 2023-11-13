@@ -120,7 +120,7 @@ const Home: NextPage = () => {
         ></Image>
         <div className="flex flex-row mx-auto mt-12 justify-center">
           <button
-            style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`, backgroundColor: "#1cbaed" }}
+            style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`, backgroundColor: "#1cbaed" }}
             type="button"
             className="hover:border-gray-700 hover:shadow-[0_0_12px_2px_rgba(123,123,123,0.6)] mt-[40px] sm:mt-0 md:mt-0 text-md
               mr-10 px-6 py-3 w-32 md:w-52 sm:py-1.5 md:py-1.5 lg:py-1.5 mb-2 cursor-pointer text-[12px] sm:text-[18px] md:text-[18px] lg:text-[22px] text-center
@@ -129,7 +129,7 @@ const Home: NextPage = () => {
             <Link href={"/Staking"}>Staking</Link>
           </button>
           <button
-            style={{ fontFamily: `'Plus Jakarta Sans', sans-serif` , border: "solid 2px #65d013", color: "#65d013"}}
+            style={{ fontFamily: `'Plus Jakarta Sans' sans-serif` , border: "solid 2px #65d013", color: "#65d013"}}
             type="button"
             className="border-2 border-gray-700 hover:border-gray-700 hover:shadow-[0_0_12px_2px_rgba(123,123,123,0.6)] mt-[40px] sm:mt-0 md:mt-0 text-md
               px-6 py-3 w-32 md:w-52 sm:py-1.5 md:py-1.5 lg:py-1.5 mb-2 cursor-pointer text-[12px] sm:text-[18px] md:text-[18px] lg:text-[22px] text-center

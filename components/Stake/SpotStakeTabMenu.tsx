@@ -452,7 +452,7 @@ export default function SpotStakeTabMenu({
               onChange={(e) => set_amountSpoT(e.target.value)}
             />
             <button
-              style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
+              style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
               className="text-white text-xl tracking-wide border border-white w-fit h-fit px-2 self-center rounded-sm
             hover:translate-x-1 hover:-translate-y-1 hover:scale-95 hover:duration-500"
               onClick={calculateMaxBalance}
@@ -485,7 +485,7 @@ export default function SpotStakeTabMenu({
                 />
               ) : (
                 <button
-                  style={{ fontFamily: `'Plus Jakarta Sans', sans-serif` }}
+                  style={{ fontFamily: `'Plus Jakarta Sans' sans-serif` }}
                   className="font-sans w-64 cursor-pointer text-md rounded-lg text-center focus:ring-2 focus:ring-blue-500 border-lime-300 border-2 text-lime-300 bg-black py-2 "
                   type="button"
                   onClick={() => HandleStaQe()}
@@ -505,7 +505,7 @@ export default function SpotStakeTabMenu({
                 />
               ) : (
                 <button
-                  style={{ fontFamily: `'Plus Jakarta Sans', sans-serif` }}
+                  style={{ fontFamily: `'Plus Jakarta Sans' sans-serif` }}
                   className="font-sans w-64 cursor-pointer text-md rounded-lg text-center border-lime-300 border-2 text-lime-300 bg-black py-2 px-4 sm:px-5 md:px-5"
                   type="button"
                   onClick={() => Approve()}
@@ -533,7 +533,7 @@ export default function SpotStakeTabMenu({
                       />
                     ) : (
                       <button
-                        style={{ fontFamily: `'Plus Jakarta Sans', sans-serif` }}
+                        style={{ fontFamily: `'Plus Jakarta Sans' sans-serif` }}
                         className="font-sans w-64 cursor-pointer text-md rounded-lg text-center border-lime-300 border-2 text-lime-300 bg-black py-2 px-4 sm:px-5 md:px-5"
                         type="button"
                         onClick={() => ApproveGspot()}
@@ -555,7 +555,7 @@ export default function SpotStakeTabMenu({
                         {" "}
                         <button
                           onClick={() => HandleUnStaQe()}
-                          style={{ fontFamily: `'Plus Jakarta Sans', sans-serif` }}
+                          style={{ fontFamily: `'Plus Jakarta Sans' sans-serif` }}
                           className="font-sans cursor-pointer w-64 text-md rounded-lg text-center focus:ring-2 focus:ring-blue-500 border-lime-300 border-2 text-lime-300 bg-black py-2 px-4 sm:px-5 md:px-5"
                           type="button"
                         >
@@ -587,7 +587,7 @@ export default function SpotStakeTabMenu({
                 ) : (
                   <button
                     onClick={() => PerpSwitch()}
-                    style={{ fontFamily: `'Plus Jakarta Sans', sans-serif` }}
+                    style={{ fontFamily: `'Plus Jakarta Sans' sans-serif` }}
                     className="font-sans ml-2 cursor-pointer text-md rounded-lg text-center focus:ring-2 focus:ring-blue-500 bg-yellow-500 border-lime-300 border-2 text-lime-300 py-2 px-5 sm:px-10 md:px-10 lg:px-10"
                     type="button"
                   >
@@ -612,7 +612,7 @@ export default function SpotStakeTabMenu({
                     {owned && ownedTill == 32503680000 ? (
                       <button
                         onClick={() => RequestUnlock()}
-                        style={{ fontFamily: `'Plus Jakarta Sans', sans-serif` }}
+                        style={{ fontFamily: `'Plus Jakarta Sans' sans-serif` }}
                         className="font-sans mt-3 cursor-pointer text-md rounded-lg text-center focus:ring-2 focus:ring-blue-500 bg-yellow-500 border-lime-300 border-2 text-lime-300 py-2 px-4 sm:px-5 md:px-5"
                         type="button"
                       >
@@ -670,7 +670,7 @@ export default function SpotStakeTabMenu({
         </div>
       </div>
       <div
-        style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
+        style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
         className=" mt-5 opacity-90 flex flex-row transition-all duration-300 py-3"
       >
         <div

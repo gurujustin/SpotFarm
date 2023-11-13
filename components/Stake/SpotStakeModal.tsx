@@ -15,7 +15,7 @@ const SpotStakeModal: React.FC<SpotStakeModalProps> = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
   return (
     <div
-      style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
+      style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
       className="flex flex-col mx-auto justify-center py-6 px-3"
     >
     <SpotStakeTabMenu _token={0} setToken={(value) => {0}} />

@@ -41,7 +41,7 @@ const Stacking = () => {
             </div>
             <h1
                 className="text-white font-sans flex justify-center mb-5 text-center items-center text-[30px]"
-                style={{fontFamily: `'Plus Jakarta Sans', sans-serif` , sans-serif}}
+                style={{fontFamily: `'Plus Jakarta Sans' sans-serif` , sans-serif}}
             >
                 Please Connect your wallet
             </h1>

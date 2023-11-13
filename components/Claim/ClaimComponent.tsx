@@ -169,7 +169,7 @@ export default function ClaimComponent() {
       <div className="py-6 px-4 sm:p-10 mt-10 lg:mt-20 inline-block w-[350px] sm:w-[350px] md:w-[550px] lg:w-[650px] overflow-x-auto opacity-80s text-white rounded-xl" style={{ border: "solid 1px #fff" }}>
         <p
           className="text-[15px] sm:text-[20px] md:text-[23px] lg:md:text-[25px] font-semibold "
-          style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
+          style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
         >
           CLAIM LP REWARDS
         </p>
@@ -177,14 +177,14 @@ export default function ClaimComponent() {
         <div className="flex flex-col md:flex-row lg:flex-row  md:justify-between lg:justify-between font-sans text-white border-b-[1px] pb-3 border-gray-500 mb-10 mt-10">
           <p
             className="col-span-2  sm:col-span-1  md:col-span-1 lg:col-span-1 text-[12px] sm:text-[15px] md:text-[15px] lg:text-[16px] "
-            style={{ textAlign: "initial", fontFamily: `'Plus Jakarta Sans', sans-serif` }}
+            style={{ textAlign: "initial", fontFamily: `'Plus Jakarta Sans' sans-serif` }}
           >
             Pending LP Rewards{" "}
           </p>
           <p
             className="mr-6 flex justify-start
             text-[10px] sm:text-[15px] md:text-[15px] lg:text-[16px] max-w-[270px]"
-            style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
+            style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
           >
             {pendingreflections}
           </p>
@@ -193,7 +193,7 @@ export default function ClaimComponent() {
         <div className="flex flex-col md:flex-row lg:flex-row md:justify-between lg:justify-between font-sans text-white border-b-[1px] pb-3 border-gray-500 mt-5 mb-5">
           <p
             className="col-span-2 sm:col-span-1 md:col-span-1 lg:col-span-1 text-[12px] sm:text-[15px] md:text-[15px] lg:text-[16px]"
-            style={{ textAlign: "initial", fontFamily: `'Plus Jakarta Sans', sans-serif` }}
+            style={{ textAlign: "initial", fontFamily: `'Plus Jakarta Sans' sans-serif` }}
           >
             Total LP Distributed{" "}
           </p>
@@ -201,7 +201,7 @@ export default function ClaimComponent() {
           <p
             className="mr-6 flex justify-start
             text-[12px] sm:text-[15px] md:text-[15px] lg:text-[16px] max-w-[270px]"
-            style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
+            style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
           >
             {totaldistributed}
           </p>
@@ -210,7 +210,7 @@ export default function ClaimComponent() {
               <div className="flex flex-col md:flex-row lg:flex-row md:justify-between lg:justify-between font-sans text-white border-b-[1px] pb-3 border-gray-500 mt-5 mb-5">
           <p
             className="col-span-2 sm:col-span-1 md:col-span-1 lg:col-span-1 text-[12px] sm:text-[15px] md:text-[15px] lg:text-[16px]"
-            style={{ textAlign: "initial", fontFamily: `'Plus Jakarta Sans', sans-serif` }}
+            style={{ textAlign: "initial", fontFamily: `'Plus Jakarta Sans' sans-serif` }}
           >
            Your Current  LP Balance{" "}
           </p>
@@ -218,14 +218,14 @@ export default function ClaimComponent() {
           <p
             className="mr-6 flex justify-start
             text-[12px] sm:text-[15px] md:text-[15px] lg:text-[16px] max-w-[270px]"
-            style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
+            style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
           >
             {balance}
           </p>
         </div>
           <div className="flex justify-center items-center mt-10 ">
             <button
-              style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`, backgroundColor: "#1cbaed"  }}
+              style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`, backgroundColor: "#1cbaed"  }}
               className="font-sans cursor-pointer text-[20px] rounded-lg text-center text-white py-2 px-5 sm:px-10 md:px-10 lg:px-10"
               type="button"
               onClick={() => claimWithPromise()}
@@ -239,14 +239,14 @@ export default function ClaimComponent() {
         <p
           className="font-sans text-[18px] sm:text-[15px] md:text-[15px] lg:text-[16px]
         col-span-2 sm:col-span-1 md:col-span-1 lg:col-span-1 "
-          style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
+          style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
         >
           BLOCKSPOT.TECH
         </p>
         <p
           className="font-sans text-[12px] sm:text-[15px] md:text-[15px] lg:text-[16px]
         col-span-2 sm:col-span-1 md:col-span-1 lg:col-span-1"
-          style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
+          style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
         >
           BLOCKSPOT2023
         </p>
@@ -254,7 +254,7 @@ export default function ClaimComponent() {
 
       {/*
         <h5
-          style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
+          style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
           className="text-center mb-2 text-4xl font-bold tracking-wide self-center text-gray-300 dark:text-gray-300"
         >
           Claim LP Rewards
@@ -284,7 +284,7 @@ export default function ClaimComponent() {
           <>
             <div className="flex flex-row content-center mx-auto items-center max-w-screen">
               <button
-                style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
+                style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
                 type="button"
                 onClick={() => Claimtoken()}
                 className="w-fit mx-0 px-20 md:px-32 self-center content-center tn:mx-0 elevation-10 hover:elevation-50 md:mx-24 h-24

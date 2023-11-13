@@ -177,7 +177,7 @@ export default function ClaimStationComponent() {
     boxShadow: isHovered
       ? "inset 6px 10px 0px -8px #FFFFFF, inset 6px -12px 0px -8px #FFFFFF, inset 17px -12px 0px -8px #FFFFFF, inset -38px 4px 0px -30px #FFFFFF, inset -38px 4px 0px -30px #FFFFFF"
       : "none",
-    fontFamily: `'Plus Jakarta Sans', sans-serif` ,
+    fontFamily: `'Plus Jakarta Sans' sans-serif` ,
     textShadow: "0px 0px 6px rgba(255,255,255,0.8)",
     background: "transparent",
     transition: "box-shadow 0.3s ease-in-out",
@@ -195,7 +195,7 @@ export default function ClaimStationComponent() {
         <h1
           className="text-xl mb-2 bg-black font-bold w-full mx-auto md:text-xl lg:text-3xl font-normal text-black"
           style={{
-            fontFamily: `'Plus Jakarta Sans', sans-serif` ,
+            fontFamily: `'Plus Jakarta Sans' sans-serif` ,
             textShadow: "0px 0px 6px rgba(255,255,255,0.8)",
             background: "transparent",
           }}
@@ -203,7 +203,7 @@ export default function ClaimStationComponent() {
           Qlaiming Station
         </h1>
         <h2
-          style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
+          style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
           className={
             "text-xl border border-white rounded-xl w-fit mx-auto text-white px-4 py-2"
           }
@@ -213,7 +213,7 @@ export default function ClaimStationComponent() {
 
         <div className={"flex flex-row mx-auto my-2"}>
           <h2
-            style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
+            style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
             className={
               "text-xl border border-white rounded-xl text-white px-4 py-2"
             }
@@ -226,7 +226,7 @@ export default function ClaimStationComponent() {
           </div>
           <p className={"mx-2"}></p>
           <h2
-            style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
+            style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
             className={
               "text-xl border border-white rounded-xl text-white px-4 py-2"
             }
@@ -236,7 +236,7 @@ export default function ClaimStationComponent() {
         </div>
         <ul className={styles.ul}>
           <button
-            style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
+            style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
             className={`${styles.button} w-40 my-2 cursor-pointer text-lg rounded-xl text-center focus:ring-2 focus:ring-blue-500
            border-white border-2 text-white border border-yellow-400 rounded-xl py-2 px-4 sm:px-5 md:px-5`}
             onClick={() => Qompound()}
@@ -248,7 +248,7 @@ export default function ClaimStationComponent() {
 
         <div className={"grid grid-cols-2 gap-4 mx-auto"}>
           <h2
-            style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
+            style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
             className="text-white mb-2 md:w-40 border border-white rounded-xl px-2 py-2"
             onMouseEnter={() => {}}
           >
@@ -262,14 +262,14 @@ export default function ClaimStationComponent() {
               : "0"}
           </h2>
           <button
-            style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
+            style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
             className="text-white mb-2 md:w-40 border border-white rounded-xl px-2 py-2"
           >
             Claimable LP <br /> {pendingLP ? pendingLP.toFixed(8) : "0"}
           </button>
 
           <button
-            style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
+            style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
             className={`${styles.button} my-2 cursor-pointer text-lg rounded-xl text-center focus:ring-2 focus:ring-blue-500 
             text-white border-2 border-yellow-400 rounded-xl py-2 px-4 sm:px-5 md:px-5`}
             type="button"
@@ -277,7 +277,7 @@ export default function ClaimStationComponent() {
             Claim ETH
           </button>
           <button
-            style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
+            style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
             className={`${styles.button} my-2 cursor-pointer text-lg rounded-xl text-center focus:ring-2 focus:ring-blue-500
             text-white border-2 border-yellow-400 rounded-xl py-2 px-4 sm:px-5 md:px-5`}
             type="button"

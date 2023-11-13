@@ -6,7 +6,7 @@ export default function ClaimPage() {
       <div className="absolute z-10">
         <div
           className={` justify-center mx-auto text-center`}
-          style={{ fontFamily: `'Plus Jakarta Sans', sans-serif` }}
+          style={{ fontFamily: `'Plus Jakarta Sans' sans-serif` }}
         >
           <div className={`  text-center self-center justify-center`}>
             <MarketplaceComponent />

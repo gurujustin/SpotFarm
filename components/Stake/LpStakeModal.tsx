@@ -18,7 +18,7 @@ const LPStakeModal: React.FC<LPStakeModalProps> = ({ isOpen, onClose }) => {
 
   return (
     <div
-    style={{ fontFamily: `'Plus Jakarta Sans', sans-serif`  }}
+    style={{ fontFamily: `'Plus Jakarta Sans' sans-serif`  }}
     className="flex flex-col mx-auto justify-center py-6 px-3"
   >
     <LpStakeTabMenu _token={1} setToken={(value) => {1}} />
