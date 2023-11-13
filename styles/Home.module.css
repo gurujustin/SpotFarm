@@ -1,0 +1,219 @@
+.container {
+  padding: 0 2rem;
+}
+
+.collapsed {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.expanded {
+  max-height: 500px;
+  overflow: visible;
+  transition: max-height 0.3s ease-in-out;
+}
+
+
+.body {
+  background: #212121;
+  padding: 50px 0;}
+.nav {
+  font-family: 'Titillium Web';
+  text-align: center;
+}
+.nav * {
+  transition: all .35s ease;}
+.nav li {
+  display: inline-block;
+  list-style: outside none none;
+  padding: 0;}
+.nav a {
+  padding: .5em .8em;
+  color: rgba(255,255,255,.5);
+  position: relative;
+  text-decoration: none;
+  font-size: 20px;}
+.nav a::before,
+.nav a::after {
+  content: '';
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  transition: all .35s ease;
+  opacity: 0;}
+.nav a::before {
+  content: '';
+  right: 0;
+  top: 0;
+  border-top: 3px solid #e3e3e3;
+  border-right: 3px solid #c0c0c0;
+  transform: translate(-100%, 50%);}
+.nav a:after {
+  content: '';
+  left: 0;
+  bottom: 0;
+  border-bottom: 3px solid #e3e3e3;
+  border-left: 3px solid #c0c0c0;
+  transform: translate(100%, -50%)}
+.nav a:hover:before,
+.nav a:hover:after{
+  transform: translate(0,0);
+  opacity: 1;}
+.nav a:hover {
+  color: #ffffff;}
+
+  .button {
+    transition: .5s;
+    background: transparent;
+  }
+
+  .button::before {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffee10;
+    border-radius: 12px;
+    transition: .5s;
+    transform: scale(.9);
+  }
+
+  .button:hover::before {
+    transform: scale(1.1);
+    box-shadow: 0 0 18px #ffee10;
+  }
+
+  .button:hover {
+    color: #ffee10;
+    box-shadow: 0 0 6px #ffee10;
+    text-shadow: 0 0 6px #ffee10;
+  }
+
+
+.main {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.tstMain {
+  /*height: 2750px;*/
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.mainPage {
+  flex: 1;
+  /*height: 1200px;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url('../assets//images/spotBackground.jpg');
+  background-size: cover;
+   /* Cover the entire container */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.title a {
+  color: #0d76fc;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 3rem 0;
+  line-height: 1;
+  font-size: 2.5rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  margin: 0 0 2rem;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+
+.card {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 350px;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0d76fc;
+  border-color: #0d76fc;
+}
+
+.card h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.2rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}

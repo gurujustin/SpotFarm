@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "Orbitron";
+    src: url("/fonts/Orbitron-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Inter-Medium-500";
+    src: url("/fonts/Inter-Medium-500.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Blanka";
+    src: url("/fonts/Blanka/Blanka-regular.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "BeatWord";
+    src: url("/fonts/BeatWord.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "MondayFeelings";
+    src: url("/fonts/MondayFeelings.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "HappyLucky";
+    src: url("/fonts/HappyLucky.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "PaintDrops";
+    src: url("/fonts/PaintDrops.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Karasha";
+    src: url("/fonts/Karasha.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: `'Plus Jakarta Sans', sans-serif` , sans-serif;
+    src: url("/fonts/GroupeMedium.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: `'Plus Jakarta Sans', sans-serif` ;
+    src: url("/fonts/Azonix.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: `'Plus Jakarta Sans', sans-serif` ;
+    src: url("/fonts/ethnocentricRg.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: `'Plus Jakarta Sans', sans-serif` ;
+    src: url("/fonts/BebasNeue.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Metropolis";
+    src: url("/fonts/Metropolis.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}

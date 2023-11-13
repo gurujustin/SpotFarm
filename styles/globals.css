@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #000;
+}
+
+html {
+  min-height: 100%; /* Look, it's not fixed anymore! */
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  flex-grow: 1;
+  position: relative;
+}
+
+body > div:first-child,
+div#__next,
+div#__next > div {
+  height: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.swal2-title {
+  color: #c3c3c3 !important;
+  font-size: 15px !important;
+  font-weight: 600;
+  text-align: center;
+  text-transform: none;
+  word-wrap: break-word;
+  font-family: `'Plus Jakarta Sans', sans-serif` !important;
+}
+
+.swal2-center,.swal2-popup {
+
+  border-radius: 30px !important;
+  background: black !important;/*this is for the full blackout*/
+}
+.swal2-styled,.swal2-confirm {
+
+  background-color: #c3c3c3 !important;
+  color: #000 !important;
+
+}
+.swal2-styled {
+
+  box-shadow: 0 0 0 1px rgb(93 93 93) !important;
+
+}
+.iekbcc0 {
+  font-family: `'Plus Jakarta Sans', sans-serif` !important;
+}
+.ju367vb0 {
+  background: #010101 !important;
+}
+.ju367veu {
+  color: #999999 !important;
+}
+.iekbcc0, .ju367v4, .ju367v8l, ._9pm4ki3, .ju367v9b, .ju367vax, .ju367va,.ju367v2l, .ju367v8l{
+  --rk-colors-profileActionHover: rgb(255 255 255 / 20%) !important;
+  --rk-shadows-dialog: 0px 8px 32px rgb(255 255 255 / 68%) !important;
+}
+
+@layer base {
+  /* Chrome, Safari, Edge, Opera */
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Firefox support */
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+}
