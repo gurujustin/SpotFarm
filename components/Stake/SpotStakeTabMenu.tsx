@@ -35,7 +35,7 @@ export default function SpotStakeTabMenu({
   const spotAddress = "0x53020F42f6Da51B50cf6E23e45266ef223122376";
   const StaqeFarm = "0xaf894A45DF2ee09Df961D159F5371d1bebe02a58";
 
-  const gspot = "0xCd3D16D9508848444bE282a2E8CEc76eA48E741b";
+  const gspot = "0x883b91e43b334faf8C2Dc37bDA80521F5c92b319";
 
   let { chain } = useNetwork();
 
