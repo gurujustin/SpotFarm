@@ -10,6 +10,7 @@ import {
   useContractRead,
 } from "wagmi";
 import { abiObject } from "../../contracts/abi/abi.mjs";
+import { trackerAbiObject } from "../../contracts/abi/trackerABI.mjs";
 import { usePublicClient } from "wagmi";
 import { useWalletClient } from "wagmi";
 import { Spin } from "antd";
@@ -137,9 +138,9 @@ export default function ClaimComponent() {
   }, [address]);
 
   const { write: Claimwrite } = useContractWrite({
-    address: "0x53020F42f6Da51B50cf6E23e45266ef223122376",
-    abi: abiObject,
-    functionName: "claim",
+    address: "0xA9806261bA8608257dc578B83a3FAa6AFD04FEc6",
+    abi: trackerAbiObject,
+    functionName: "withdrawDividend",
     account: address,
   });
 
