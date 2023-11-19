@@ -11,9 +11,9 @@ export const HeaderMenuData = [{
     title: 'Staking',
     target: ''
 },{
-    route: 'https://linktr.ee/blockspot',
-    title: 'BlockSpot Tree',
-    target: '_self'
+    route: 'https://link3.to/blockspot',
+    title: 'Link3',
+    target: '_blank'
 },{
     route: 'https://blockspot.tech',
     title: 'Website',
